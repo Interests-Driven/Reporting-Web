@@ -1,0 +1,35 @@
+{
+  "name": "report",
+  "version": "1.0.0",
+  "description": "Reporting front-end",
+  "main": "webpack.dev.config.js",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.dev.config.js",
+	"start": "webpack-dev-server --config webpack.dev.config.js --color --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Interests-Driven/Reporting-Web.git"
+  },
+  "author": "Tina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Interests-Driven/Reporting-Web/issues"
+  },
+  "homepage": "https://github.com/Interests-Driven/Reporting-Web#readme"
+}
